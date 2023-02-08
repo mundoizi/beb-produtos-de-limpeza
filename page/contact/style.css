@@ -1,0 +1,10 @@
+#contact > box {
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+}
+#contact > box p {
+  max-width: 700px;
+  padding: 50px 20px;
+}

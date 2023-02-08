@@ -1,0 +1,155 @@
+#logo {
+  height: 60vh;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+  font-family: "Roboto", sans-serif;
+  font-family: "Tiro Devanagari Sanskrit", serif;
+}
+#logo img {
+  max-width: 95vw;
+  max-height: 200px;
+}
+
+#social {
+  align-items: center;
+  justify-content: center;
+  width: 700px;
+  height: 200px;
+  font-size: 4em;
+}
+#social .btn-group {
+  gap: 10px;
+  justify-content: space-evenly;
+  width: 100%;
+}
+#social .btn-group .btn {
+  color: white;
+  border-radius: 15px;
+  border-width: 3px;
+}
+#social .btn-group .btn.whatsapp {
+  background-image: linear-gradient(#56d062, #2db742);
+}
+#social .btn-group .btn.mail {
+  display: none;
+  background-image: linear-gradient(#ff6b5f, #ea4335);
+}
+#social .btn-group .btn.instagram {
+  background: #f09433;
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#f09433", endColorstr="#bc1888",GradientType=1 );
+}
+#social .btn-group .btn.facebook {
+  display: none;
+  background-image: linear-gradient(#15a2fa, #0572e6);
+}
+
+#presentation {
+  background-image: url("../image/limpando.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#presentation > box {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  background: rgba(68, 170, 0, 0.8);
+  justify-content: center;
+  align-items: center;
+}
+#presentation > box p {
+  max-width: 700px;
+  padding: 0 20px;
+  text-shadow: 0 0 20px #253f4c;
+  text-align: justify;
+}
+
+#banner {
+  background-image: url("../image/bkg.webp");
+  background-repeat: repeat;
+  background-position: center;
+  background-attachment: fixed;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  border-top: solid 20px #17296e;
+  border-bottom: solid 20px #ba8e75;
+  padding: 10vh 10px;
+}
+#banner > box {
+  width: 700px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+#banner > box .motivo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: chocolate;
+  padding: 20px;
+  border-radius: 40px;
+  color: white;
+  font-weight: bold;
+}
+#banner > box .motivo:nth-child(2) {
+  font-size: 1.3em;
+  background: rgba(26, 137, 96, 0.5490196078);
+}
+#banner > box .motivo:nth-child(3) {
+  font-size: 1.1em;
+  background: rgba(16, 112, 159, 0.5215686275);
+}
+#banner > box .motivo:nth-child(4) {
+  font-size: 1.1em;
+  background: rgba(129, 69, 34, 0.5098039216);
+}
+
+#aboutus {
+  background-image: url("../image/likes.jpg");
+  background-repeat: repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+#aboutus > box {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  background: rgba(95, 188, 211, 0.8);
+  justify-content: center;
+  align-items: center;
+}
+#aboutus > box p {
+  max-width: 700px;
+  padding: 0 20px;
+  text-shadow: 0px 1px 10px #18475e;
+  text-align: justify;
+}
+
+#contact > box {
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+}
+#contact > box p {
+  max-width: 700px;
+  padding: 50px 20px;
+}
+
+#end > box {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  background: #4a0;
+  justify-content: center;
+  align-items: center;
+}
+#end > box p {
+  max-width: 700px;
+  padding: 0 20px;
+}

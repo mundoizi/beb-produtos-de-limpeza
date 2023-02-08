@@ -1,0 +1,181 @@
+#logo {
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+
+    font-family: "Roboto", sans-serif;
+    font-family: "Tiro Devanagari Sanskrit", serif;
+
+    img {
+        max-width: 95vw;
+        max-height: 200px;
+    }
+}
+#social {
+    align-items: center;
+    justify-content: center;
+
+    width: 700px;
+    height: 200px;
+    font-size: 4em;
+
+    .btn-group {
+        gap: 10px;
+        justify-content: space-evenly;
+
+        width: 100%;
+
+        .btn {
+            color: white;
+            border-radius: 15px;
+            border-width: 3px;
+            &.whatsapp {
+                background-image: linear-gradient(#56d062, #2db742);
+            }
+            &.mail {
+                display: none;
+                background-image: linear-gradient(#ff6b5f, #ea4335);
+            }
+            &.instagram {
+                background: #f09433;
+                background: -moz-linear-gradient(
+                    45deg,
+                    #f09433 0%,
+                    #e6683c 25%,
+                    #dc2743 50%,
+                    #cc2366 75%,
+                    #bc1888 100%
+                );
+                background: -webkit-linear-gradient(
+                    45deg,
+                    #f09433 0%,
+                    #e6683c 25%,
+                    #dc2743 50%,
+                    #cc2366 75%,
+                    #bc1888 100%
+                );
+                background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+            }
+            &.facebook {
+                display: none;
+                background-image: linear-gradient(#15a2fa, #0572e6);
+            }
+        }
+    }
+}
+#presentation {
+    background-image: url("../image/limpando.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    > box {
+        font-size: 20px;
+        color: white;
+        font-weight: bold;
+        background: transparentize(#4a0, 0.2);
+        justify-content: center;
+        align-items: center;
+        p {
+            max-width: 700px;
+            padding: 0 20px;
+            text-shadow: 0 0 20px #253f4c;
+            text-align: justify;
+        }
+    }
+}
+#banner {
+    background-image: url("../image/bkg.webp");
+    background-repeat: repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+
+    border-top: solid 20px #17296e;
+    border-bottom: solid 20px #ba8e75;
+
+    padding: 10vh 10px;
+
+    > box {
+        width: 700px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+        .motivo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            background: chocolate;
+            padding: 20px;
+            border-radius: 40px;
+            color: white;
+            font-weight: bold;
+            &:nth-child(2) {
+                font-size: 1.3em;
+                background: #1a89608c;
+            }
+            &:nth-child(3) {
+                font-size: 1.1em;
+                background: #10709f85;
+            }
+            &:nth-child(4) {
+                font-size: 1.1em;
+                background: #81452282;
+            }
+        }
+    }
+}
+#aboutus {
+    background-image: url("./assets/image/likes.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+    > box {
+        font-size: 20px;
+        color: white;
+        font-weight: bold;
+        background: transparentize(#5fbcd3, 0.2);
+        justify-content: center;
+        align-items: center;
+        p {
+            max-width: 700px;
+            padding: 0 20px;
+            text-shadow: 0px 1px 10px #18475e;
+            text-align: justify;
+        }
+    }
+}
+#contact {
+    > box {
+        font-size: 20px;
+        font-weight: bold;
+        justify-content: center;
+        align-items: center;
+        p {
+            max-width: 700px;
+            padding: 50px 20px;
+        }
+    }
+}
+#end {
+    > box {
+        font-size: 20px;
+        color: white;
+        font-weight: bold;
+        background: #4a0;
+        justify-content: center;
+        align-items: center;
+        p {
+            max-width: 700px;
+            padding: 0 20px;
+        }
+    }
+}

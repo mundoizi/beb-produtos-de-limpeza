@@ -1,0 +1,21 @@
+#aboutus {
+    background-image: url("[#url:assets/likes.jpg]");
+    background-repeat: repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+    > box {
+        font-size: 20px;
+        color: white;
+        font-weight: bold;
+        background: transparentize(#5fbcd3, 0.2);
+        justify-content: center;
+        align-items: center;
+        p {
+            max-width: 700px;
+            padding: 0 20px;
+            text-shadow: 0px 1px 10px #18475e;
+            text-align: justify;
+        }
+    }
+}

@@ -1,0 +1,46 @@
+#banner {
+    background-image: url("[#url:assets/bkg.webp]");
+    background-repeat: repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+
+    border-top: solid 20px #17296e;
+    border-bottom: solid 20px #ba8e75;
+
+    padding: 10vh 10px;
+
+    > box {
+        width: 700px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+        .motivo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            background: chocolate;
+            padding: 20px;
+            border-radius: 40px;
+            color: white;
+            font-weight: bold;
+            &:nth-child(2) {
+                font-size: 1.3em;
+                background: #1a89608c;
+            }
+            &:nth-child(3) {
+                font-size: 1.1em;
+                background: #10709f85;
+            }
+            &:nth-child(4) {
+                font-size: 1.1em;
+                background: #81452282;
+            }
+        }
+    }
+}
